@@ -335,6 +335,17 @@ const UserDashboard = () => {
             </OrderDetails>
 
           </OrderCard>
+          <OrderCard>
+          <OrderImage src="/plant2.jpg" alt="Order" />
+          <OrderDetails>
+            <OrderTitle>Plant 2</OrderTitle>
+            <OrderPrice>$19.99</OrderPrice>
+            <OrderStatus>Delivered</OrderStatus>
+            <OrderRating>Rating: 4.0/5</OrderRating>
+            <BuyAgainButton>Buy Again</BuyAgainButton>
+            </OrderDetails>
+
+          </OrderCard>
         </OrdersSection>
     </Container>
   );
