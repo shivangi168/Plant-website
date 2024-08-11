@@ -1,6 +1,16 @@
 import { createGlobalStyle } from 'styled-components';
 
-
+// export const theme = {
+//   colors: {
+//     light: '#ffffff',
+//     dark: '#333333',
+//     darkGreen: '#004d00',
+//     success: '#28a745',
+//     successDark: '#1e7e34',
+//     error: '#dc3545',
+//     errorDark: '#c82333'
+//   }
+// };
 
 export const theme = {
   colors: {

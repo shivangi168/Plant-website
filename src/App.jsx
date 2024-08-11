@@ -5,6 +5,8 @@ import Footer from './components/Footer';
 import MainContent from './components/MainContent';
 import ProductDetail from './pages/product/ProductDetail';
 import UserDashboard from './pages/user/UserDashboard';
+import SuperadminDashboard from './components/SuperadminDashboard';
+
 import Cart from './pages/user/Cart';
 import Wishlist from './pages/user/Wishlist';
 import { ThemeProvider } from 'styled-components';
@@ -22,6 +24,9 @@ function App() {
           <Route path="/profile" element={<UserDashboard />} />
           <Route path="/cart" element={<Cart />} />
           <Route path="/wishlist" element={<Wishlist />} />
+          <Route path="admin" element={<SuperadminDashboard />} />
+
+          {/* <Route path="/superadmin" element={<SuperadminDashboard />} /> Superadmin dashboard route */}
         </Routes>
         <Footer />
       </Router>
